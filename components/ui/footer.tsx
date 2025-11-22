@@ -11,12 +11,43 @@ export default function Footer({ border = false }: { border?: boolean }) {
         >
           {/* 1st block */}
           <div className="space-y-2 sm:col-span-12 lg:col-span-4">
-            <div>
-              <Logo />
+            <div className="flex items-center justify-center">
+              <Logo /> <span className="">Eopsin Tech</span>
             </div>
             <div className="text-sm text-gray-600">
-              &copy; Cruip.com - All rights reserved.
+              &copy; EopsinTech.com - All rights reserved.
             </div>
+            <div className="space-y-1">
+  <div>
+    Address:
+    <span className="text-sm ml-1">
+      19th Floor, Tower A, Spectrum Mall
+    </span>
+  </div>
+
+  <div>
+    Email:
+    <a
+      href="mailto:ashish@swiftramp.in"
+      className="text-sm ml-1 text-blue-600 hover:underline"
+    >
+         ashish@swiftramp.in
+    </a>
+  </div>
+
+  <div>
+    Location:
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=Spectrum+Mall+Tower+A"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm ml-1 text-blue-600 hover:underline"
+    >
+      View on Map
+    </a>
+  </div>
+</div>
+
           </div>
 
           {/* 2nd block */}
@@ -200,7 +231,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
 
       {/* Big text */}
       <div className="relative -mt-16 h-60 w-full" aria-hidden="true">
-        <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[348px] font-bold leading-none before:bg-linear-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['Simple'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['Simple'] after:[text-shadow:0_1px_0_white]"></div>
+        <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[348px] font-bold leading-none before:bg-linear-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['EOPSIN'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-[''] after:[text-shadow:0_1px_0_white]"></div>
         {/* Glow */}
         <div
           className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-2/3"
